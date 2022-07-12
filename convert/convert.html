@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>js</title>
+<!-- <script type="text/javascript" src="even.js"></script>  -->
+</head>
+
+<body>  
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+    <div class="container">
+        <div class="element">
+            <form action="#">
+            <div class="amount">
+                Amount
+                <input type="number" id="input" value="0">
+            </div>
+                 
+        <div class="from">
+            <p>From Currency</p>
+            <select id="fcurrent">
+                <option value="23000e">VietNam</option>
+                <option value="1">USD</option>
+            </select>
+        </div>
+        <div class="to"> 
+            <p>To Currency</p>
+            <select id="tcurrent">
+                <option value="23000">VietNam</option>
+                <option value="1">USD</option>
+            </select>
+        </div>
+       <div>
+        <button onclick="convertValue()">Convert</button>
+        <p id="demo">.</p>
+        <script type="text/javascript" src="conver.js"></script> 
+       </div>
+       
+    </div> 
+    </div>
+   </body>
+</body>
+
+</html>
+
